@@ -86,12 +86,11 @@ export default function HampiHealthcare() {
   const conditions = [
     "Gastrointestinal Disorders",
     "Bariatric (Weight Loss) Surgery",
-    "Colorectal Surgery",
+    "Cancer Care / Oncology",
     "Laparoscopic Procedures",
     "Cancer Surgery",
-    "Piles, Fissure, Fistula Treatment",
-    "Type 2 Diabetes Management",
-    "All Medical Conditions",
+    "Cardiology",
+    "Diabetes and Endocrinology",
   ];
 
   return (
@@ -104,7 +103,8 @@ export default function HampiHealthcare() {
         </h1>
         <meta
           name="description"
-          content="Get affordable world-class medical treatment in Bangalore, India. Save 60-80% on healthcare costs with UK-trained specialists. Medical tourism services for international patients from USA, UK, Canada, Australia."
+          content="Get affordable world-class medical treatment in Bangalore, India. Save 60-80% on healthcare costs with UK-trained specialists. Medical tourism services for international patients from USA, UK,
+                Canada, United Arab Emirates, Saudi Arabia, Kuwait and beyond"
         />
         <meta
           name="keywords"
@@ -197,10 +197,10 @@ export default function HampiHealthcare() {
 
             <p className="text-xl text-slate-700 max-w-3xl mx-auto mb-8 leading-relaxed">
               Evidence-based medical treatment with expert care coordination for
-              international patients from USA, UK, Canada, and Australia. Access
-              Bangalore&apos;s premier NABH-accredited healthcare facilities
-              with personalized support from UK-trained surgeon Dr. Maruthesh
-              Gowda.
+              international patients from USA, UK, Canada, United Arab Emirates,
+              Saudi Arabia, Kuwait and beyond. Access Bangalore&apos;s premier
+              NABH-accredited healthcare facilities with personalized support
+              from UK-trained surgeon Dr. Maruthesh Gowda.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -730,7 +730,7 @@ export default function HampiHealthcare() {
                 <h3 className="font-bold text-xl mb-2">
                   Call Us for Medical Tourism India
                 </h3>
-                <p className="opacity-90">+91-8123941239</p>
+                <p className="opacity-90">+91-7899121515</p>
                 <p className="opacity-90 text-sm mt-2">
                   Available 24/7 for International Patients
                 </p>
@@ -771,7 +771,7 @@ export default function HampiHealthcare() {
               </button>
               <p className="mt-9 opacity-90">
                 Trusted medical tourism provider for patients from USA, UK,
-                Canada, Australia and beyond
+                Canada, United Arab Emirates, Saudi Arabia, Kuwait and beyond
               </p>
             </div>
           </div>

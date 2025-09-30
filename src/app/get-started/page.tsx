@@ -55,12 +55,13 @@ export default function GetStartedPage() {
             </div>
           </Link>
           <div className="flex gap-4">
-            <Link
-              href="get-started"
-              className="px-2 white-space: nowrap py-2 bg-blue-600 font-semibold text-white rounded-lg hover:bg-blue-700 transition"
-              aria-label="Get started with affordable medical treatment in Bangalore"
-            >
-              Get Started
+            <Link href="get-started">
+              <button
+                className="px-2 white-space: nowrap py-2 bg-blue-600 font-semibold text-white rounded-lg hover:bg-blue-700 transition"
+                aria-label="Get started with affordable medical treatment in Bangalore"
+              >
+                Get Started
+              </button>
             </Link>
           </div>
         </div>
@@ -93,9 +94,9 @@ export default function GetStartedPage() {
                 </p>
                 <a
                   href="tel:+919876543210"
-                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors w-full"
+                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-colors w-full"
                 >
-                  +91 8123941239
+                  +91 7899121515
                 </a>
               </div>
             </div>
