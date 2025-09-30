@@ -729,7 +729,7 @@ export default function HampiHealthcare() {
                 <h3 className="font-bold text-xl mb-2">
                   Call Us for Medical Tourism India
                 </h3>
-                <p className="opacity-90">+91-XXXXXXXXXX</p>
+                <p className="opacity-90">+91-8123941239</p>
                 <p className="opacity-90 text-sm mt-2">
                   Available 24/7 for International Patients
                 </p>
