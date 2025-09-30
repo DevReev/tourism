@@ -21,7 +21,7 @@ export default function GetStartedPage() {
           </Link>
           <div className="flex gap-4">
             <Link
-              href="#how-it-works"
+              href="/#how-it-works"
               className="px-6 py-2 text-blue-900 font-semibold hover:bg-blue-50 rounded-lg transition"
               aria-label="Learn how our medical tourism process works"
             >
