@@ -33,7 +33,7 @@ export default function HampiHealthcare() {
       number: "02",
       title: "Pay Consultation Fee",
       description:
-        "$20 / ₹2,000 covers complete evaluation and treatment planning",
+        "$40 / ₹3,500 covers complete evaluation and treatment planning",
       icon: Shield,
       action: "Pay Now",
     },
