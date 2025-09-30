@@ -539,11 +539,12 @@ export default function HampiHealthcare() {
               </div>
 
               <blockquote className="text-lg leading-relaxed italic text-center text-slate-600">
-                "Working in the UK for 10 years, qualities like evidence-based
-                medicine, patient-centric approach, and high-quality care are
-                embedded in my practice. I founded Hampi Healthcare to help
-                international patients access the same standard of care at
-                affordable costs through medical tourism in India."
+                &quot;Working in the UK for 10 years, qualities like
+                evidence-based medicine, patient-centric approach, and
+                high-quality care are embedded in my practice. I founded Hampi
+                Healthcare to help international patients access the same
+                standard of care at affordable costs through medical tourism in
+                India.&quot;
               </blockquote>
             </article>
           </div>
@@ -694,7 +695,7 @@ export default function HampiHealthcare() {
               </div>
 
               <blockquote className="text-lg leading-relaxed italic text-center text-slate-600 bg-white p-6 rounded-lg">
-                "I know what it feels like to be thousands of miles away,
+                &quot;I know what it feels like to be thousands of miles away,
                 worried about your loved ones&apos; health. That&apos;s why
                 I&apos;m personally committed to treating every international
                 patient like family. My mission is to ensure no one has to
@@ -702,7 +703,7 @@ export default function HampiHealthcare() {
                 in Bangalore or calling from halfway across the world. Quality
                 healthcare should be accessible, affordable, and stress-free
                 through medical tourism - that&apos;s the promise of Hampi
-                Healthcare."
+                Healthcare.&quot;
               </blockquote>
             </article>
           </div>
