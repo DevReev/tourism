@@ -18,6 +18,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function HampiHealthcare() {
   const steps = [
@@ -104,6 +105,9 @@ export default function HampiHealthcare() {
 
   return (
     <>
+      <Head>
+        <title>Hampi Healthcare</title>
+      </Head>
       {/* SEO Meta Tags - Would be in Head component in Next.js */}
       <div style={{ display: "none" }}>
         <h1>
