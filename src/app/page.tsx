@@ -33,7 +33,7 @@ export default function HampiHealthcare() {
       number: "02",
       title: "Pay Consultation Fee",
       description:
-        "$40 / ₹3,500 covers complete evaluation and treatment planning",
+        "$45 / ₹4,000 covers complete evaluation and treatment planning",
       icon: Shield,
       action: "Pay Now",
     },
@@ -84,13 +84,22 @@ export default function HampiHealthcare() {
   ];
 
   const conditions = [
-    "Gastrointestinal Disorders",
-    "Bariatric (Weight Loss) Surgery",
-    "Cancer Care / Oncology",
-    "Laparoscopic Procedures",
-    "Cancer Surgery",
+    "Allergy and Immunology",
+    "Andrology",
+    "Weight Loss Surgery",
     "Cardiology",
+    "Cancer Care / Oncology",
+    "Cardiothoracic Surgery",
     "Diabetes and Endocrinology",
+    "Dental Medicine",
+    "Dermatology",
+    "Ear, Nose, Throat (ENT)",
+    "Gastroenterology",
+    "General Surgery",
+    "Gynecology and Obstetrics",
+    "Gastrointestinal Disorders",
+    "Hepatology (Liver Diseases)",
+    "Fetal Medicine",
   ];
 
   return (
@@ -386,7 +395,7 @@ export default function HampiHealthcare() {
                 id="medical-tourism-package"
                 className="text-4xl font-bold mb-6 text-center"
               >
-                Complete Medical Tourism Care Package India: $40 / ₹3,500
+                Complete Medical Tourism Care Package India: $45 / ₹4,000
               </h2>
               <p className="text-xl text-center mb-10 opacity-90">
                 Everything international patients need for informed medical
