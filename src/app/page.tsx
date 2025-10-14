@@ -432,6 +432,47 @@ export default function HampiHealthcare() {
           </div>
         </section>
 
+        {/* Video Section - Founder's Message */}
+        <section className="py-20 px-4 bg-slate-50">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+                Hear from Dr. Maruthesh Gowda
+              </h2>
+
+              <div className="w-24 h-1 bg-blue-600 mx-auto mt-6"></div>
+            </div>
+
+            <div className="bg-white p-4 md:p-8 rounded-2xl shadow-xl border border-slate-200">
+              <video
+                className="w-full rounded-lg"
+                controls
+                preload="metadata"
+                poster="/video-thumbnail.jpg"
+              >
+                <source src="/hampihealthcare.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+              <div className="mt-6 text-center">
+                {/* <p className="text-slate-700 text-sm md:text-base">
+                  Watch Dr. Gowda explain the differences between Mounjaro
+                  injections and surgical weight loss options, and discover
+                  which treatment might be right for you.
+                </p> */}
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <Link href="/get-started" className="no-underline">
+                <button className="btn bg-blue-900 text-white hover:bg-blue-800 border-none px-8 py-3 text-lg rounded-full font-semibold">
+                  Schedule Your Consultation
+                </button>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Conditions Treated - SEO rich medical specialties */}
         <section
           className="py-16 px-4 bg-slate-50"
