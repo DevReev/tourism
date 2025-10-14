@@ -223,7 +223,7 @@ export default function HampiHealthcare() {
                 aria-label="Book free initial consultation for medical tourism India"
               >
                 <Phone size={20} aria-hidden="true" />
-                Book Free Initial Call
+                Book Consultation
               </Link>
             </div>
 
