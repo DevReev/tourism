@@ -81,23 +81,45 @@ export default function GetStartedPage() {
           </div>
 
           {/* Appointment Booking Options */}
+          {/* Appointment Booking Options */}
           <div className="text-center mb-12">
-            <div className="max-w-xl mx-auto">
-              {/* Phone Call Option */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-blue-200 hover:border-blue-400 transition-colors">
-                <div className="text-5xl mb-4">📞</div>
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">
-                  Call Us
-                </h3>
-                <p className="text-slate-600 mb-6">
-                  Speak directly with our team for immediate assistance.
-                </p>
-                <a
-                  href="tel:+919876543210"
-                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-colors w-full"
-                >
-                  +91 7899121515
-                </a>
+            <div className="max-w-4xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* Phone Call Option */}
+                <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-blue-200 hover:border-blue-400 transition-colors">
+                  <div className="text-5xl mb-4">📞</div>
+                  <h3 className="text-2xl font-bold text-blue-900 mb-4">
+                    Call Us
+                  </h3>
+                  <p className="text-slate-600 mb-6">
+                    Speak directly with our team.
+                  </p>
+                  <a
+                    href="tel:+917899121515"
+                    className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-colors w-full"
+                  >
+                    +91 7899121515
+                  </a>
+                </div>
+
+                {/* WhatsApp Option */}
+                <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-200 hover:border-green-400 transition-colors">
+                  <div className="text-5xl mb-4">💬</div>
+                  <h3 className="text-2xl font-bold text-green-700 mb-4">
+                    WhatsApp
+                  </h3>
+                  <p className="text-slate-600 mb-6">
+                    Chat with us on WhatsApp for quick responses.
+                  </p>
+                  <a
+                    href="https://wa.me/917899121515"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-colors w-full"
+                  >
+                    Chat on WhatsApp
+                  </a>
+                </div>
               </div>
             </div>
           </div>
